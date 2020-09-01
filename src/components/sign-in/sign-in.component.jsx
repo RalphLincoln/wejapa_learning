@@ -50,7 +50,7 @@ export default class SignIn extends Component {
             name="email"
             value={this.state.email}
             handleChange={this.handleEmailChange}
-            label="email"
+            label="Email"
             required
           />
           <FormInput
@@ -58,7 +58,7 @@ export default class SignIn extends Component {
             name="password"
             value={this.state.password}
             handleChange={this.handlePasswordChange}
-            label="password"
+            label="Password"
             required
           />
 
